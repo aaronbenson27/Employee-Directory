@@ -6,11 +6,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="searchBar">
+          <div class="inputBars">
+            <input id="name" placeholder="Name">
+            <input id="officeNum" placeholder="Office Number">
+            <input id="phoneNum" placeholder="Phone Number">
+          </div>
+          <div class="buttons">
+            <button id="addButton">Add</button>
+            <button id="deleteButton">Delete</button>
+            <button id="verifyButton">Verify</button>
+            <button id="updateButton">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar-dark bg-dark">
+    <ul class="nav flex-column">
+      <div class="row">
+        <div class="column-12">
+          <button class="navButton">
+            <li class="nav-item" id="view">View</li>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-12">
+          <button class="navButton">
+            <li class="nav-item" id="add">Add</li>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-12">
+          <button class="navButton">
+            <li class="nav-item" id="verify">Verify</li>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-12">
+          <button class="navButton">
+            <li class="nav-item" id="update">Update</li>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-12">
+          <button class="navButton">
+            <li class="nav-item" id="delete">Delete</li>
+          </button>
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <main>
+    <section class="viewTab">
+
+    </section>
+
+    <section class="addTab">
+
+    </section>
+
+    <section class="verifyTab">
+
+    </section>
+
+    <section class="updateTab">
+
+    </section>
+
+    <section class="deleteTab">
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <div class="content"></div>
+
+  </main>
+
+
+
+
   <script src="dom.js"></script>
   <script src="employeeList.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
